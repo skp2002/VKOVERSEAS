@@ -1,0 +1,23 @@
+{
+  "name": "vk-overseas-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.4",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
